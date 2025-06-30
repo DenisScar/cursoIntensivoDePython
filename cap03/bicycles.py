@@ -5,3 +5,6 @@ print(bicicles[0].title()) # Exibe o primeiro item da lista, com inicial maiúsc
 print(bicicles[-1]) # Exibe o último elemento da lista
 print(bicicles[-2]) # Exibe o penúltimo elemento da lista
 
+message = "My fisrt bicicle was a " + bicicles[0].title() + "."
+
+print(message)
